@@ -1,0 +1,22 @@
+                                            DML COMMANDS
+
+   
+                         Modification of data inside the table
+
+    Ex: Modification of data inside a student_info data
+
+
+1. insert into student_info values (1, 'punith', 10, 50.13);
+   insert into student_info values (2, 'sathwik', 15, 75.24);
+   insert into student_info values (3, 'gnaneshwar', 11, 63.25);
+
+2. select * from student_info;
+   select roll, statistics from student_info;
+   select * from student_info where roll=1;
+   
+3. update student_info set marks=13 where roll=1;
+   update student_info set marks=marks+2 where roll=3;
+   
+ 4. delete from student_info where roll=1;
+                       
+ 
